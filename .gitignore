@@ -1,0 +1,4 @@
+exec.sh
+pycodestyle.sh
+__pycache__/
+file.json
