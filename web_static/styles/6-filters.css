@@ -75,7 +75,9 @@
 	text-align: left;
 
 }
-
+.popover h2{
+font-size: 16px;
+}
 .popover li{
 	padding: 0;
 	margin: 5px;
