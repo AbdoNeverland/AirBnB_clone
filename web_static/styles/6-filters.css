@@ -28,7 +28,7 @@
 	opacity: 0.9;
 }
 
-.locations, .amenities{
+.filters .locations, .filters .amenities{
 	height: 100%;
 	width: 25%;
 	text-align:left;
@@ -36,12 +36,12 @@
 
 }
 
-.locations{
+.filters .locations{
 	border-right:#DDDDDD solid 1px;
 }
 
 
-.locations h3, .amenities h3{
+.filters .locations h3, .filters .amenities h3{
 	padding:0;
 	margin: 0;
 	margin-left: 20%;
@@ -51,7 +51,7 @@
 	white-space: nowrap;
 
 }
-.locations h4, .amenities h4{
+.filters .locations h4,.filters .amenities h4{
 	margin: 0;
 	margin-left: 20%;
 	padding:0;
