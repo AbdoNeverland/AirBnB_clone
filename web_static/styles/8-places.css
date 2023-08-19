@@ -1,94 +1,99 @@
-.places{
-margin-top: 20px;
-}
+	.places{
+		margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	}
 
-.places h1{
-	text-align: left;
+	.places h1{
+		text-align: left;
 	margin-top: 0;
 	margin-bottom: 0;
-}
-
-.places article{
-	width: 390px;
-	padding: 20px;
-	margin: 20px;
-	border: #FF5A5F solid 1px;
-	border-radius:4px;
-	display: inline-block;
-	height: 400px;
-	position: relative;
-	z-index:-1;
-}
-
-.places article h2{
-	padding: 0px;
-	margin: 0px;
 	width: 100%;
-	left: 0px;
-	font-size: 30px;
-	font-size: 30px;
-text-align: center;
-	vertical-align: top;
-	position: absolute;
+	padding-left: 20px;
+	}
 
-}
+	.places article{
+		width: 390px;
+		padding: 20px;
+		margin: 20px;
+		border: #FF5A5F solid 1px;
+		border-radius:4px;
+		display: inline-block;
+		height: 400px;
+		position: relative;
+		z-index:-1;
+	}
 
-.price_by_night{
-	color: #FF5A5F;
-	border:#FF5A5F solid 4px ;
-	box-sizing: border-box;
-	border-radius: 50%;
-	min-width: 60px;
-	height: 60px;
-	line-height: 60px;
-	font-size: 30px;
-	display: inline-block;
-	position: absolute;
-	top : 20px;
-	right:20px;
-}
+	.places article h2{
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+		left: 0px;
+		font-size: 30px;
+		font-size: 30px;
+		text-align: center;
+		vertical-align: top;
+		position: absolute;
+
+	}
+
+	.price_by_night{
+		color: #FF5A5F;
+		border:#FF5A5F solid 4px ;
+		box-sizing: border-box;
+		border-radius: 50%;
+		min-width: 60px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 30px;
+		display: inline-block;
+		position: absolute;
+		top : 20px;
+		right:20px;
+	}
 
 
-.information{
-	position:absolute;
-	top:100px;
-	left:0;
-	right: 0;
-	height: 80px;
-	display: flex;
-	justify-content: center;
-	border-bottom: #DDDDDD solid 1px;
+	.information{
+		position:absolute;
+		top:100px;
+		left:0;
+		right: 0;
+		height: 80px;
+		display: flex;
+		justify-content: center;
+		border-bottom: #DDDDDD solid 1px;
 		border-top: #DDDDDD solid 1px;
-}
+	}
 
-.information div{
-	width: 100px;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-position: center 5px;
-	line-height: 120px;
-}
-.max_guest{
-	background-image: url("../images/icon_group.png");
-}
-.number_rooms{
-	background-image: url("../images/icon_bed.png");
-}
-.number_bathrooms{
-	background-image: url("../images/icon_bath.png");
-}
+	.information div{
+		width: 100px;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center 5px;
+		line-height: 120px;
+	}
+	.max_guest{
+		background-image: url("../images/icon_group.png");
+	}
+	.number_rooms{
+		background-image: url("../images/icon_bed.png");
+	}
+	.number_bathrooms{
+		background-image: url("../images/icon_bath.png");
+	}
 
-.user{
-	position: absolute;
-	top: 200px;
-	background-color: red solid 2px;
-}
-.description{
-	position: absolute;
-	top: 215px;
-	left : 0;
-	right: 0;
-	bottom: 0;
-	text-align: left;
-	padding: 20px;
-}
+	.user{
+		position: absolute;
+		top: 200px;
+	}
+	.description{
+		position: absolute;
+		top: 215px;
+		left : 0;
+		right: 0;
+		bottom: 0;
+		text-align: left;
+		padding: 20px;
+	}
