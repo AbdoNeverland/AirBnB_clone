@@ -25,7 +25,7 @@
 }
 
 
-.filters button:hover{
+.filters button:hover, .filters button:focus, .filters button:active{
 	opacity: 0.9;
 }
 
@@ -140,7 +140,7 @@
 		opacity: 0;
 	}
 
-	.popover:hover{
+	.popover:hover, .popover:focus, .popover:active{
 		opacity: 1;
 		border-radius: 0%;
 		transform: scale(1);
