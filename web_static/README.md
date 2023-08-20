@@ -1,1 +1,2 @@
 # AirBnB_Clone web static
+In this va project, I am creating a webpage similar to the landing page of the Airbnb website.  I manage several things: responsive layout, accessibility, adaptation to the touch screen
