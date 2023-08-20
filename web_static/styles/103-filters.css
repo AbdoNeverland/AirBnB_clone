@@ -84,10 +84,10 @@
 	list-style: none;
 }
 
-.locations:hover >.popover{
+.locations:hover >.popover, .locations:active >.popover{
 	display: block;
 }
-.amenities:hover >.popover{
+.amenities:hover >.popover, .amenities:active >.popover {
 	display: block;
 }
 
