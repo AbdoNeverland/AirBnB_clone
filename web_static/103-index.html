@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>AirBnB clone</title>
- <link rel="stylesheet" href="styles/102-common.css">
- <link rel="stylesheet" href="styles/102-header.css">
- <link rel="stylesheet" href="styles/102-footer.css">
- <link rel="stylesheet" href="styles/102-filters.css">
- <link rel="stylesheet" href="styles/102-places.css">
- <link rel="icon" href="images/icon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AirBnB clone</title>
+  <link rel="stylesheet" href="styles/102-common.css">
+  <link rel="stylesheet" href="styles/102-header.css">
+  <link rel="stylesheet" href="styles/102-footer.css">
+  <link rel="stylesheet" href="styles/102-filters.css">
+  <link rel="stylesheet" href="styles/102-places.css">
+  <link rel="icon" href="images/icon.png">
 </head>
 <body>
   <header aria-hidden="true">
@@ -16,96 +18,53 @@
 
     <section class="filters" aria-label="filters">
 
-         <div class="locations" aria-haspopup="true" aria-label="location">
-        <h3>States</h3>
-        <h4>California, Arizona...</h4>
-        <ul class="popover">
-          <li><h2>Arizona:</h2></li>
-          <li>
+     <div class="locations" aria-haspopup="true" aria-label="location">
+      <h3>States</h3>
+      <h4>California, Arizona...</h4>
+      <ul class="popover">
+        <li><h2>Arizona:</h2></li>
+        <li>
           <ul>
            <li>Page</li>
-            <li>Page2</li>
-            </ul>
-          </li>
-              <li><h2>California:</h2></li>
-              <li>
-              <ul>
-           <li>San Francisco</li>
-            <li>Los Altos</li>
-          </ul>
-        </li>
-        </ul>
-      </div>
-
-     <div class="amenities" aria-haspopup="true" aria-label="amenities">
-      <h3>Amenities</h3>
-      <h4>Internet, Kitchen...</h4>
-      <ul class="popover">
-        <li>Internet</li>
-        <li>TV</li>
-        <li>Kitchen</li>
-        <li>Iron</li>
-      </ul>
-    </div>
-
-    <button>Search</button>
-  </section>
-  
-  <section class="places" aria-label="places founded">
-    <h1>Places</h1>
-
-    <article aria-label="article">
-     <h2>My home</h2>
-     <div class="price_by_night">$80</div>
-     <div class="information" aria-label="informations">
-       <div class="max_guest">
-         2 Guests
-       </div>
-       <div class="number_rooms">
-        1 Bedroom
-      </div>
-      <div class="number_bathrooms">
-       1 Bathroom
-     </div>
-   </div>
-   <div class="user"><strong>Owner: </strong> John lennon</div>
-   <div class="description">
-     Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque rhoncus nunc ac molestie bibendum. 
-   </div>
-
-   <div class="amenities" aria-label="amenities">
-     <h2>Amenities</h2>
-  <ul>
-    <li class="amenities_tv">TV</li>
-    <li class="amenities_wifi">Wifi</li>
-    <li class="amenities_pet">Pet friendly</li>
-  </ul>
-   </div>
-   <div class="reviews" aria-label="reviews">
-     <h2>2 reviews</h2>
-     <ul>
+           <li>Page2</li>
+         </ul>
+       </li>
+       <li><h2>California:</h2></li>
        <li>
-         <h3>From Bob Dylan the 27th January 2017</h3>
-         <p>Runshi is an epic host. Nothing more i can say. 6 stars!</p>
-       </li>
-        <li>
-         <h3>From Connor the 4th January 2017</h3>
-         <p>Highly recommended!</p>
-       </li>
-     </ul>
-   </div>
+        <ul>
+         <li>San Francisco</li>
+         <li>Los Altos</li>
+       </ul>
+     </li>
+   </ul>
+ </div>
 
- </article>
+ <div class="amenities" aria-haspopup="true" aria-label="amenities">
+  <h3>Amenities</h3>
+  <h4>Internet, Kitchen...</h4>
+  <ul class="popover">
+    <li>Internet</li>
+    <li>TV</li>
+    <li>Kitchen</li>
+    <li>Iron</li>
+  </ul>
+</div>
 
- <article aria-label="article">
-   <h2>Tiny house</h2>
-   <div class="price_by_night">$65</div>
+<button>Search</button>
+</section>
+
+<section class="places" aria-label="places founded">
+  <h1>Places</h1>
+
+  <article aria-label="article">
+   <h2>My home</h2>
+   <div class="price_by_night">$80</div>
    <div class="information" aria-label="informations">
      <div class="max_guest">
-       4 Guests
+       2 Guests
      </div>
      <div class="number_rooms">
-      2 Bedroom
+      1 Bedroom
     </div>
     <div class="number_bathrooms">
      1 Bathroom
@@ -113,26 +72,69 @@
  </div>
  <div class="user"><strong>Owner: </strong> John lennon</div>
  <div class="description">
-   Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class 
+   Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque rhoncus nunc ac molestie bibendum. 
  </div>
-  <div class="amenities" aria-label="amenities">
-     <h2>Amenities</h2>
-  <ul>
+
+ <div class="amenities" aria-label="amenities">
+   <h2>Amenities</h2>
+   <ul>
+    <li class="amenities_tv">TV</li>
+    <li class="amenities_wifi">Wifi</li>
     <li class="amenities_pet">Pet friendly</li>
   </ul>
+</div>
+<div class="reviews" aria-label="reviews">
+ <h2>2 reviews</h2>
+ <ul>
+   <li>
+     <h3>From Bob Dylan the 27th January 2017</h3>
+     <p>Runshi is an epic host. Nothing more i can say. 6 stars!</p>
+   </li>
+   <li>
+     <h3>From Connor the 4th January 2017</h3>
+     <p>Highly recommended!</p>
+   </li>
+ </ul>
+</div>
+
+</article>
+
+<article aria-label="article">
+ <h2>Tiny house</h2>
+ <div class="price_by_night">$65</div>
+ <div class="information" aria-label="informations">
+   <div class="max_guest">
+     4 Guests
    </div>
-   <div class="reviews" aria-label="reviews">
-     <h2>1 review</h2>
-     <ul>
-       <li>
-         <h3>From Bob Dylan the 27th January 2017</h3>
-         <p> Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque rhoncus nunc ac molestie bibendum. Duis magna dui, blandit a tortor vitae, congue cursus velit. Sed sollicitudin semper
-           Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque rhoncus nunc ac molestie bibendum. Duis magna dui, blandit a tortor vitae, congue cursus velit. Sed sollicitudin semper
-            Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. 
-         </p>
-       </li>
-     </ul>
-   </div>
+   <div class="number_rooms">
+    2 Bedroom
+  </div>
+  <div class="number_bathrooms">
+   1 Bathroom
+ </div>
+</div>
+<div class="user"><strong>Owner: </strong> John lennon</div>
+<div class="description">
+ Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class 
+</div>
+<div class="amenities" aria-label="amenities">
+ <h2>Amenities</h2>
+ <ul>
+  <li class="amenities_pet">Pet friendly</li>
+</ul>
+</div>
+<div class="reviews" aria-label="reviews">
+ <h2>1 review</h2>
+ <ul>
+   <li>
+     <h3>From Bob Dylan the 27th January 2017</h3>
+     <p> Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque rhoncus nunc ac molestie bibendum. Duis magna dui, blandit a tortor vitae, congue cursus velit. Sed sollicitudin semper
+       Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque rhoncus nunc ac molestie bibendum. Duis magna dui, blandit a tortor vitae, congue cursus velit. Sed sollicitudin semper
+       Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. 
+     </p>
+   </li>
+ </ul>
+</div>
 </article>
 
 <article aria-label="article">
@@ -153,27 +155,27 @@
 <div class="description">
  Integer at justo ex. Suspendisse malesuada ornare orci id feugiat. Donec eleifend condimentum enim, eu pretium leo commodo et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque rhoncus nunc ac molestie bibendum. Duis magna dui, blandit a tortor vitae, congue cursus velit. Sed sollicitudin semper posuere. Aliquam congue, risus ac volutpat accumsan, urna magna interdum sem, at ullamcorper magna dolor ut ipsum. Cras ac pretium leo, ut varius nunc. Nulla et sem dignissim, accumsan tortor ac, venenatis nisi. Cras facilisis sem eros, non blandit risus ultricies vel. Integer porta purus at finibus sodales. 
 </div>
- <div class="amenities" aria-label="amenities">
-     <h2>Amenities</h2>
-  <ul>
-    <li class="amenities_tv">TV</li>
-    <li class="amenities_wifi">Wifi</li>
-    <li class="amenities_pet">Pet friendly</li>
-  </ul>
-   </div>
-   <div class="reviews" aria-label="reviews">
-     <h2>2 reviews</h2>
-     <ul>
-       <li>
-         <h3>From Bob Dylan the 27th January 2017</h3>
-         <p>Runshi is an epic host. Nothing more i can say. 6 stars!</p>
-       </li>
-        <li>
-         <h3>From Connor the 4th January 2017</h3>
-         <p>Highly recommended!</p>
-       </li>
-     </ul>
-   </div>
+<div class="amenities" aria-label="amenities">
+ <h2>Amenities</h2>
+ <ul>
+  <li class="amenities_tv">TV</li>
+  <li class="amenities_wifi">Wifi</li>
+  <li class="amenities_pet">Pet friendly</li>
+</ul>
+</div>
+<div class="reviews" aria-label="reviews">
+ <h2>2 reviews</h2>
+ <ul>
+   <li>
+     <h3>From Bob Dylan the 27th January 2017</h3>
+     <p>Runshi is an epic host. Nothing more i can say. 6 stars!</p>
+   </li>
+   <li>
+     <h3>From Connor the 4th January 2017</h3>
+     <p>Highly recommended!</p>
+   </li>
+ </ul>
+</div>
 </article>
 
 </section>
