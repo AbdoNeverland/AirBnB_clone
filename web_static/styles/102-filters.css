@@ -1,3 +1,4 @@
+
 .filters{
 	background-color: #FFFFFF;
 	height: 70px;
@@ -31,7 +32,6 @@
 .filters .locations, .filters .amenities{
 	height: 100%;
 	width: 25%;
-	text-align:left;
 	text-align: center;
 
 }
@@ -76,7 +76,7 @@
 
 }
 .popover h2{
-font-size: 16px;
+	font-size: 16px;
 }
 .popover li{
 	padding: 0;
@@ -90,3 +90,62 @@ font-size: 16px;
 .amenities:hover >.popover{
 	display: block;
 }
+
+
+@media only screen and (max-width: 600px) {
+	.filters {
+		flex-direction: row;
+		height: auto;
+		padding: 2px;
+		flex-wrap:wrap ;
+		justify-content: center;
+
+	}
+	.filters .locations .popover{
+		position: absolute;
+		left:0;
+		right: 50%;
+		top: 0;
+		bottom: 50%;
+		margin: 0;
+	}
+	.filters .amenities .popover{
+		position: absolute;
+		left:50%;
+		right: 0;
+		top: 0;
+		bottom: 50%;
+		margin: 0;
+	}
+	.filters .locations{
+		width: auto;
+		flex-grow: 1;
+	}
+	.filters .amenities{
+		width: auto;
+		flex-grow: 1;
+
+	}
+	.filters button{
+		width: 100%;
+		margin: 0;
+
+	}
+
+	.popover {
+		transition: all 1s;
+		border-radius: 100%;
+		transform: scale(0.5);
+		border: #FF5A5F solid 50px ;
+		opacity: 0;
+	}
+
+	.popover:hover{
+		opacity: 1;
+		border-radius: 0%;
+		transform: scale(1);
+		border: #DDDDDD solid 1px ;
+	}
+
+}
+
